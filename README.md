@@ -50,9 +50,11 @@ The data is sourced from a static **Excel file (`Shopify Sales.xlsx`)** containi
 
 Here is a preview of the main "Shopify Analysis" dashboard:
 
-*(Drag-and-drop your dashboard screenshot file here. GitHub will automatically upload it and create the image link for you.)*
+*https://github.com/GursimarpreetSingh-coder/PowerBI_shopify/blob/main/Snapshot%20of%20ShopifydashboardBI.png*
+<img width="1566" height="918" alt="Snapshot of ShopifydashboardBI" src="https://github.com/user-attachments/assets/7b531713-03e6-4b67-b44b-18b10b5df1ee" />
 
 
 
 ---
 *(Here is the second page, the "Details Tab"):*
+<img width="1562" height="920" alt="Details Tab Shopify" src="https://github.com/user-attachments/assets/e26ad501-2846-4395-bcbd-719bb8656060" />
