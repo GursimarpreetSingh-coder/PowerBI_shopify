@@ -1,73 +1,58 @@
-**Hospital Operations & Financial Performance Dashboard**
+# Shopify E-commerce Sales & Customer Funnel Dashboard
 
-*End-to-End Power BI Analysis of Hospital ER Efficiency and Financial Metrics*
+> An end-to-end Power BI portfolio project analyzing Shopify sales data to provide actionable e-commerce insights.
 
----
+## 📊 Short Description
 
-**Short Description**
+This project is a comprehensive Power BI dashboard designed to analyze a Shopify e-commerce dataset. It visualizes key performance indicators (KPIs) related to sales, customer behavior, and product performance, transforming raw sales data into an interactive, decision-driving report.
 
-This repository contains a comprehensive Power BI project analyzing patient flow, operational bottlenecks, and financial performance within a hospital's Emergency Room (ER) setting. It transforms raw patient visit and billing data into actionable insights for hospital administration.
+## 🎯 Purpose
 
----
+The primary goal of this project is to demonstrate end-to-end proficiency in Microsoft Power BI. This includes:
 
-**Purpose**
+* **Data Cleaning & Transformation** (using Power Query)
+* **Data Modeling** (connecting data sources, though this project uses a single flat file)
+* **DAX Measure Creation** (writing custom formulas for KPIs)
+* **Modern Dashboard Design** (UI/UX, custom navigation, and interactivity)
 
-The primary goal of this project is to provide hospital management with a unified view of operational efficiency and financial health. Key objectives include:
-* Identifying bottlenecks in patient wait times across different departments.
-* Analyzing revenue generation by doctor and department.
-* Understanding patient demographics and satisfaction drivers.
-* Providing key performance indicators (KPIs) for executive oversight.
+This dashboard is designed to act as a portfolio piece, showcasing the skills required for a Business Intelligence or Data Analyst role.
 
----
+## 🛠️ Tech Stack & Tools
 
-**Tech Stack Used**
+* **Power BI Desktop:** The primary tool for report development.
+* **DAX (Data Analysis Expressions):** Used for creating all custom measures (e.g., `Net Avg. Order Value`, `Repeat Customers`, `Retention Rate`).
+* **Power Query (M Language):** Used for data cleaning, transformation, and loading the source data.
 
-* **Power BI Desktop:** For data transformation, modeling, DAX calculations, and report visualization.
-* **Power Query (M Language):** For Extract, Transform, Load (ETL) processes, including merging tables, cleaning data, and fixing data types.
-* **DAX (Data Analysis Expressions):** For creating calculated measures and KPIs (e.g., Average Wait Time, Total Revenue, Distinct Patient Count).
+## 💾 Datasource
 
----
+The data is sourced from a static **Excel file (`Shopify Sales.xlsx`)** containing anonymized transaction and customer data exported from a Shopify store.
 
-**Datasource**
+## ✨ Features
 
-The analysis is based on two primary CSV datasets:
-1.  `Hospital ER.csv`: Contains anonymized patient visit details including timestamps, demographics, wait times, and department referrals.
-2.  `Doctor_Patients_data.xlsx - Sheet1.csv`: Contains billing information linked to patient visits, including doctor details, appointment fees, and total bills.
+* **Executive KPI Dashboard:** A high-level overview of critical metrics:
+    * Total Sales & Transactions
+    * Average Order Value (AOV)
+    * Customer Purchase Frequency & Retention
+* **Customer Funnel Analysis:** Visuals tracking the customer purchase journey and retention rates.
+* **Geospatial Analysis:** An interactive map visual ("Regional Overview") to filter sales data by state/province.
+* **Time Series Insights:** A "Total Qty Trend Over Time" line chart to identify sales patterns and seasonality.
+* **Product & Payment Breakdown:** Bar and donut charts showing top-performing products and popular payment gateways.
+* **Custom Page Navigation:** A sleek, app-like navigation panel (built from buttons and icons) to switch between the "Shopify Analysis" and "Details Tab" pages.
+* **Drill-Through & Drill-Down:** The report allows users to click on a visual (like a city on the map) to drill down and filter the entire report page for specific insights.
 
-*Note: These datasets are fictional or publicly available samples and do not contain real patient information.*
+## 🚀 Project Highlights
 
----
+* **Modern UI/UX Design:** A clean, dark-mode theme with custom icons and buttons for a professional, app-like feel.
+* **Complex DAX Measures:** The dashboard moves beyond simple sums, utilizing DAX to calculate meaningful business metrics like retention and repeat customer rates.
+* **Data Storytelling:** The report is structured to guide a user—from the high-level summary on the main page to the granular data in the "Details Tab."
 
-**Features**
+## 📸 Dashboard Screenshots
 
-* **Interactive Dashboard:** Multi-page report allowing users to filter and slice data dynamically.
-* **Data Model:** Cleaned and merged data into a single `Visits` fact table for efficient analysis.
-* **KPI Monitoring:** Key metrics like Total Patients, Total Revenue, and Average Wait Time are prominently displayed.
-* **Departmental Analysis:** Visualizations comparing performance (wait times, revenue) across different hospital departments.
-* **Doctor Performance:** Analysis of patient volume and revenue generation per doctor.
+Here is a preview of the main "Shopify Analysis" dashboard:
 
----
+*(Drag-and-drop your dashboard screenshot file here. GitHub will automatically upload it and create the image link for you.)*
 
-**Highlights**
 
-* Successfully merged and cleaned data from two distinct sources using Power Query.
-* Developed key DAX measures to derive meaningful insights beyond basic sums and counts.
-* Created clear and actionable visualizations to address specific business questions regarding hospital operations and finances.
-* Demonstrates an end-to-end BI workflow from raw data to interactive dashboard.
-
----
-
-**Example Usage / Live Demo**
-
-You can interact with the live version of this dashboard here:
-*[Link to your Power BI Publish to Web URL - **You need to paste your link here!**]*
 
 ---
-
-**Attached Screenshot**
-
-Below is a screenshot of the main dashboard overview page:
-
-![Hospital Dashboard Screenshot](*link_or_path_to_your_screenshot.png* **<-- Replace this with the path/link to your image file**)
-
----
+*(Here is the second page, the "Details Tab"):*
